@@ -1,0 +1,11 @@
+{
+    "css": [
+        "*.css",
+        "*.less",
+        "*.scss"
+    ],
+    "js": [
+        "terrific.min.js",
+        "*.js"
+    ]
+}

@@ -1,0 +1,96 @@
+.tc_admin h1 {
+	padding: 15px 15px 4px 0;
+}
+
+.tc_admin h2 {
+	font-size: 21px;
+}
+
+.tc_admin h3 {
+	margin-top: 0;
+}
+
+.tc_admin h4 {
+	margin-bottom: 5px;
+}
+
+.tc_admin .settings label{
+	width: 100px;
+	display: inline-block;
+}
+
+.tc_admin form{
+	background: #fafafa;
+	padding: 10px;
+	margin: 0 0 25px 0;
+	background-image: -webkit-linear-gradient(top,#fff,#f1f1f1);
+	background-image: -moz-linear-gradient(center top,#fff 0%,#f1f1f1 100%);
+	background-image: -o-linear-gradient(top,#fff,#f1f1f1);
+	background-image: -ms-linear-gradient(top,#fff,#f1f1f1);
+	background-image: linear-gradient(top,#fff,#f1f1f1);
+	text-shadow: 0 1px 0 #fff;
+	-webkit-box-shadow: 0 0px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0px 2px rgba(0,0,0,0.3);
+	-o-box-shadow: 0 0px 2px rgba(0,0,0,0.3);
+	-ms-box-shadow: 0 0px 2px rgba(0,0,0,0.3);
+	box-shadow: 0 0px 2px rgba(0,0,0,0.3);
+}
+
+.tc_admin p {
+	margin-bottom: 3px;
+}
+
+.tc_admin .pluginicon {
+	float: left;
+	height: 30px;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+.tc_admin input[type="text"] {
+	width: 256px;
+}
+
+.tc_admin select {
+	width: 198px;
+}
+
+.tc_admin input[type="text"],
+.tc_admin select {
+	height: auto;
+	line-height: 20px;
+	padding: 5px;
+	border-radius: 0;
+	border: 1px solid #e1e1e1;
+}
+
+.tc_admin input[type="radio"] {
+	vertical-align: middle;
+}
+
+.tc_admin input.maxcacheage {
+	width: 144px;
+	text-align: right;
+}
+
+.tc_admin label{
+	margin: 0 10px 0 2px;
+}
+
+.tc_admin .info,
+.tc_admin .alert  {
+	padding: 15px;
+	display: block;
+	border-radius: 2px;
+	margin-top: 20px;
+}
+
+.tc_admin .alert {
+	background: #fcc;
+	color: #700;
+}
+
+.tc_admin .info {
+	background: #dfd;
+	color: #070;
+}

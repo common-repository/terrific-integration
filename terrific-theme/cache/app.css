@@ -1,0 +1,118 @@
+/* YUI 3.8.1 (build 5795) Copyright 2013 Yahoo! Inc. http://yuilibrary.com/license/ */
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+body {
+  min-height: 200px;
+  background: #fff;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+}
+.wrapper {
+  width: 768px;
+  margin: 20px auto;
+}
+.contentwrapper {
+  margin-top: 40px;
+}
+.content {
+  width: 530px;
+}
+.sidebar {
+  width: 210px;
+  padding-left: 10px;
+  border-left: 1px solid #ddd;
+  float: right;
+  overflow: hidden;
+}
+a {
+  color: #009fd0;
+  text-decoration: none;
+}
+a:hover {
+  color: #111;
+}
+h1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 18px;
+}
+.mod-comments {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+.mod-comments .responses {
+  margin-bottom: 8px;
+}
+.mod-comments .comment .comment-author {
+  vertical-align: center;
+}
+.mod-comments .comment .comment-author img {
+  float: left;
+  margin-right: 5px;
+}
+.mod-comments .comment .comment-author cite {
+  font-weight: bold;
+}
+.mod-comments .comment .comment-meta a {
+  font-size: 11px;
+}
+.mod-comments .comment p {
+  margin: 8px 0;
+}
+.mod-comments .respond {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+.mod-comments .respond .replytitle {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.mod-comments .respond input,
+.mod-comments .respond textarea {
+  margin: 3px 0;
+}
+.mod-comments .respond textarea {
+  display: inline-block;
+  width: 100%;
+}
+.mod-post {
+  margin-bottom: 15px;
+}
+.mod-post .title {
+  margin-bottom: 10px;
+}
+.mod-post .content {
+  width: 100%;
+}
+.mod-search {
+  float: right;
+}
+.mod-search .field {
+  margin-top: 10px;
+  padding: 4px;
+  width: 200px;
+  font-size: 14px;
+}
+.mod-search .field.wide {
+  width: 250px;
+}
+.mod-search .submit {
+  display: none;
+}
+.mod-sidebar .openclose h2:after {
+  content: " [-]";
+}
+.mod-sidebar .openclose.closed h2:after {
+  content: " [+]";
+}
+.mod-sidebar .closed + ul {
+  display: none;
+}
+.mod-sidebar .categories {
+  list-style-type: none;
+}
+.mod-sidebar .cat-item {
+  margin: 5px 0;
+}
